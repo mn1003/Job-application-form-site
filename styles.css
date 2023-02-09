@@ -1,0 +1,36 @@
+body{
+     background-color: lightgreen;
+     margin:0;
+    }
+    h2{
+    	background-color: forestgreen;
+    	color: white;
+    	padding:10px;
+    }
+    td{
+    	padding: 7px;
+    }
+    input{
+    	height: 25px;
+    	border-radius:10px;
+    	border:none;
+    }
+    textarea{
+    	border-radius:10px;
+    }
+    input:focus,textarea:focus{
+    	outline:none;
+    	border: 1px solid forestgreen;
+    }
+    .button{
+    	color: white;
+    	background-color:forestgreen;
+    	font-size:18px;
+    	padding:0px 25px;
+    	margin-botton: 30px;
+    	border: none;
+    }
+    .button:hover{
+    	cursor:pointer;
+    	box-shadow: 5px 5px 5px;
+    }
